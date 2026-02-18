@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 1</title>
+</head>
+<body>
+    <p>Halo ketrin selamat datang</p>
+    <h5>bab 1</h5>
+    <br>
+    <h2>HELLOW HTML</h2>
+
+    <img src="moodboard.png" alt="Gambar" width="300">
+
+    <br><br>
+
+    <table border="2" cellpadding="10" cellspacing="10">
+        <tr>
+            <th>nomor</th>
+            <th>nama</th>
+            <th>kelas</th>
+            <th>npm</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>ketrin</td>
+            <td>si</td>
+            <td>2457052006</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">irma</td>
+            <td rowspan="2">2417052001</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td colspan="1"></td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <form action="#">
+        <label for="nama">masukkan nama</label>
+        <input type="text" placeholder="nama lengkap">
+        <br><br>
+
+        <input type="password" placeholder="password">
+        <br><br>
+
+        <input type="number" placeholder="nomor">
+        <br><br>
+
+        <input type="date">
+    </form>
+    <br><br>
+    <a href="https://www.google.com">Kunjungi Google</a>
+    
+</body>
+</html>
