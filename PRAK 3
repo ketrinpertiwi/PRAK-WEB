@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Kehadiran Praktikan</title>
+</head>
+<body>
+
+    <h1>Form Kehadiran Praktikan</h1>
+
+    <form action="#" method="post">
+        <table border="1" cellpadding="6" cellspacing="0">
+            <tr>
+                <td>Nama</td>
+                <td>:</td>
+                <td>
+                    <input type="text" placeholder="Masukkan nama" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>NPM</td>
+                <td>:</td>
+                <td>
+                    <input type="number" placeholder="Masukkan NPM" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Kelas</td>
+                <td>:</td>
+                <td>
+                    <select required>
+                        <option value="">Pilih kelas</option>
+                        <option value="ILKOM A">ILKOM A</option>
+                        <option value="ILKOM B">ILKOM B</option>
+                        <option value="ILKOM C">ILKOM C</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Tanggal</td>
+                <td>:</td>
+                <td>
+                    <input type="date" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Waktu</td>
+                <td>:</td>
+                <td>
+                    <input type="time" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="3" style="text-align: center;">
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
