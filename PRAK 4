@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="main-header">
+        <h1 class="title">Form Kehadiran</h1>
+    </header>
+
+    <div class="container">
+        <form id="form-kehadiran" method="post" target="_blank">
+            
+            <label for="name">Nama: </label>
+            <input type="text" id="name" name="name" placeholder="Masukkan Nama"><br>
+
+            <label for="NPM">NPM: </label>
+            <input type="number" id="NPM" name="NPM" placeholder="Masukkan NPM"><br>
+
+            <label for="password">Password: </label>
+            <input type="password" id="password" name="password"><br>
+
+            <label for="kelas">Kelas: </label>
+            <select name="kelas" id="kelas"><br>
+                <option value="Ilmu Komputer">Ilmu Komputer</option>
+                <option value="Sistem Informasi">Sistem Informasi</option>
+            </select><br>
+
+            <label for="Tanggal">Tanggal: </label>
+            <input type="date" id="Tanggal" name="Tanggal"><br>
+
+            <label for="Waktu">Waktu: </label>
+            <input type="time" id="Waktu" name="Waktu"><br>
+
+            <input type="submit" id="btn-submit" value="Submit">
+        
+        </form>
+    </div>
+
+</body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#main-header {
+    background-color: #96c1f3;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+label {
+    font-weight: bold;
+}
+
+#btn-submit {
+    background-color: #adcdf1;
+    color: white;
+}
