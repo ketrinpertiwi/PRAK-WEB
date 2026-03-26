@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile Saya</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <img src="https://i.pinimg.com/736x/3a/cd/93/3acd9319ba69a561d341bfcd2b831add.jpg" class="profile-img">
+
+    <h1>saya adalah pokoknya</h1>
+    <p class="subtitle">HELLOW</p>
+
+    <div class="links">
+        <a href="https://www.instagram.com/ketrinpertiwi_">Instagram</a>
+        <a href="https://wa.me/qr/M5WIV3AVIGDFM1">WhatsApp</a>
+        <a href="https://github.com/ketrinpertiwi">GitHub</a>
+        <a href="mailto:ketrinpertiwi26@gmail.com">Email</a>
+    </div>
+
+    <h2 class="section">Vlog Saya</h2>
+
+  <div class="video">
+    <iframe 
+       src="https://www.youtube.com/embed/E6yaCT32qZA?si=AdFnt6koXDPCsu2V&amp;controls=0" 
+    </iframe>
+</div>
+</div>
+
+</body>
+</html>
